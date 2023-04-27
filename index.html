@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vaccination Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+</head>
+
+<body class="">
+  <nav class="navbar navbar-expand-lg bg-purple-500">
+    <div class="container-fluid bg-purple-500">
+      <a class="navbar-brand" onClick="window.location.reload();">Vaccination Tracker</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!-- <select class="form-select district-dropdown" id="DistrictDropdown" aria-label="Default select example">
+                <option selected><a class="dropdown-item" href="#">Select District</a></option>
+                <option value="1"><a class="dropdown-item" href="Alipurduar District, West Bengal Covid-19 Vaccination - Vaccinate India.html">Alipurduar District</a></option>
+                <option value="2"><a class="dropdown-item" href="#">Bankura</a></option>
+                <option value="3"><a class="dropdown-item" href="#">Basirhat HD (North 24 Parganas)</a></option>
+              </select> -->
+
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle district-dropdown" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Select Location
+              </button>
+              <ul class="dropdown-menu overflow-y-auto" style="background-color: #fce09b; border-color: white">
+                <li><a class="dropdown-item dist-name"
+                  href="West Bengal Covid-19 Vaccination - Vaccinate India.html">All District</a></li>
+
+                <li class="ms-0">
+                  <a class="dropdown-item dist-name" href="Bankura, West Bengal Covid-19 Vaccination - Vaccinate India.html">Bankura</a>
+                </li>
+
+                <li class="ms-0">
+                  <a class="dropdown-item dist-name"
+                    href="Darjeeling, West Bengal Covid-19 Vaccination - Vaccinate India.html">Darjeeling</a>
+                </li>
+                
+                <li class="ms-0">
+                  <a class="dropdown-item dist-name" href="Kolkata, West Bengal Covid-19 Vaccination - Vaccinate India.html">Kolkata</a>
+                </li>
+              
+                
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vaccination Status</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My-schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="dose-banner">
+      <div class="container-fluid">
+        <div class="Banner w-100 mb-5">
+          <div class="row">
+            <div class="col mx-3">
+              <div class="banner-content ps-3 mt-5">
+                <!-- <p class="fs-3 text-start fw-bold">Total 7,35,27,155 - 74.93% of citizens received at-least
+                  one dose of vaccine in West Bengal, about 6,67,05,636 - 67.98% fully
+                  vaccinated.
+                </p> -->
+                <p class="fs-4 text-start fw-bold">Historic & Unparalleled Achievement !
+                  <br>
+
+                  WEST BENGAL’S Glorious Journey of</p>
+
+                  <h2 class="fw-bold">7 Crore+ vaccination</h2>
+                <h5 class="main-quates accessibility-plugin-ac text-start mt-5"> "India is set to defeat Covid-19. Every Indian is making it possible." </h5>
+                <p class="accessibility-plugin-ac text-start fs-6"> - PM Narendra Modi </p>
+              </div>
+
+              
+            </div>
+            <div class="col">
+              <div class="col-8">
+                <div class="banner-image-wrap w-100">
+                  <img src="images/independance.svg" alt="" class="desk-image w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    
+
+    <div class="vaccination-steps w-100">
+      <img class="w-100" src="images/VaccinationSteps.png" alt="">
+    </div>
+
+    <!-- 
+    <div id="indata">~: Initial Data :~</div>
+    <div id="show">
+      <div class="card" id="cd1">
+        <p>Total Vaccination done :</p>
+        <p class="vdata" id="vacdone"></p>
+      </div>
+      <div class="card" id="cd2">
+        <p>Vaccines Remaining :</p>
+        <p class="vdata" id="vacrem"></p>
+      </div>
+      <div class="card" id="cd3">
+        <p>Total People yet to be vaccinated :</p>
+        <p class="vdata" id="perrem"></p>
+      </div>
+
+      <img id="DAYMAP" />
+    </div>
+    <div class="selday" id="selectday">
+      <input id="seld" type="number" placeholder="Enter Day Number" />
+    </div>
+    <div>
+      <button class="subm" id="getdata" onclick="getcurdata()">
+        Get Current Data
+      </button>
+
+      <button class="subm" id="PLAYVID" onclick="PlayMap()">
+        Show Progress
+      </button>
+    </div> -->
+  </main>
+  <script src="script.js"></script>
+  <script src="vacdata.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

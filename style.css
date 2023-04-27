@@ -1,0 +1,242 @@
+/* body{
+    background-image: url(https://cdn.who.int/media/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-479v.jpg?sfvrsn=4dba955c_12%20479w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+
+/* body{
+  margin: 0px;
+  background-image: url("https://images.theconversation.com/files/453423/original/file-20220321-14981-gwxv7z.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C2448%2C1224&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+} */
+
+#glass{
+  background-color: rgba(0, 0, 0, 0.763);
+  min-height: 100vh;
+  
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  height: 40px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+
+nav li a:hover {
+  color: #f1c40f;
+}
+
+main {
+  margin-top: 50px;
+  text-align: center;
+  background-image: url();
+}
+
+
+
+.drop {
+  height: 30px;
+  margin-bottom: 40px;
+}
+
+.dropdown select {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  background-color: #3f3c2f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown select:hover {
+  background-color: #1a1811;
+}
+
+.dropdown select:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px #f1c40f;
+}
+
+#show {
+  display: none;
+  flex-direction: row;
+  width: 90%;
+  
+
+  /* height: auto; */
+  margin: auto;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  padding: 50px;
+
+}
+#indata{
+  height: 50px;
+  margin: auto 20%;
+  font-size: 40px;
+  display: none;
+  color: rgb(0, 0, 0);
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  box-shadow: rgba(88, 88, 153, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  /* background-color: rgb(136, 182, 182); */
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 110%; 
+  line-height: 1; 
+  color: #333;
+  /* text-align: justify; */
+
+}
+
+
+
+#DAYMAP{
+  width:40%;
+  border-radius: 5px;
+}
+
+.vdata{
+  font-size: 40px;
+}
+.selday{
+  margin: auto;
+  height: 50px;
+}
+#seld{
+   /* width: 80px; */
+   height: 30px;
+   font-size: 16px;
+   padding: 10px;
+   border: none;
+   background-color: #3f3c2f;
+   color: white;
+   border-radius: 5px;
+}
+.subm{
+  height: 35px;
+  width: 150px;
+ 
+  margin: auto;
+  margin-top: 30px;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  background-color: #3f3c2f;
+  
+}
+.subm:hover{
+  background-color: #1a1811 ;
+}
+#selectday{
+  display: none;
+}
+#getdata{
+  display: none;
+}
+#PLAYVID{
+  display: none;
+}
+
+/* changing bootstrap */
+
+.bg-purple-500{
+  background-color: #017e7e;
+}
+ 
+.navbar li a{
+  color:white;
+}
+
+.navbar a{
+  color:white;
+}
+
+.btn.btn-secondary.dropdown-toggle.district-dropdown{
+  background-color: #fdd36a;
+  color:black;
+  border-color: white;
+}
+
+
+
+/* #drop-list-item li:hover{
+  background-color: #4FBDBA;
+}
+
+#drop-list-item li:active{
+  background-color: #4FBDBA;
+} */
+
+a.dropdown-item.dist-name{
+  color: black;
+}
+a.dropdown-item.dist-name:hover{
+  background-color: #fdd36a;
+}
+
+ul.dropdown-menu{
+  max-height: 200px;
+  /* overflow: scroll; */
+}
+
+a.navbar-brand:hover{
+  text-decoration: none;
+  cursor:pointer;
+}
+
